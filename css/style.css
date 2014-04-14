@@ -11,7 +11,7 @@
 }
 
 html {
-    background: #95a5a6;
+    background: #ecf0f1;
 }
 
 html, body {
@@ -36,13 +36,13 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3.1em;
+    text-transform: uppercase;
 }
 
 h2 {
-    font-family: 'ff-meta-serif-web-pro', Georgia, Times, "Times New Roman", serif;    
+    font-family: 'Helvetica Neue', Helvetica, "pragmatica-web", Arial, sans-serif;
+    letter-spacing: -0.05em;
     font-size: 2.2em;
-    line-height: 1.4em;
-    font-weight: normal;
 }
 
 h3 {
@@ -113,7 +113,9 @@ section {
     text-align: left;
     margin-bottom: 0px;
     padding-top: .3em;
-    border-top: 15px #c0392b solid;
+    border-top: 0px #c0392b solid;
+    padding-bottom: .3em;
+    border-bottom: 15px #c0392b solid;
 }
 .aanhef h2 {
     margin-top: 0;
@@ -128,10 +130,7 @@ section {
     clear: both;
     color: #2c3e50;
 }
-.content .site-width {
-    background: #ecf0f1;
-    padding: 2em 0;
-    box-shadow: 0px 0px 20px #7f8c8d;
+.aanhef .site-width {
 }
 
 .footer {
